@@ -1,0 +1,145 @@
+header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 32px;
+    max-width: 1760px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+#logo{
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 60px;
+    height: 32px;
+    width: 128px;
+}
+nav{
+    width: 21%;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    max-width: 1760px;
+
+}
+#text_div{
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: column;
+}
+#main_div{
+    margin-bottom: 60px;
+    box-sizing: border-box;
+    padding-left: 250px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 50px;
+    height: calc(100vw * 0.36);
+    width: 100%;
+    background-image: url('img/img1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#main_text1{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+#main_text2{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 125% */
+
+
+    color: #FFFFFF;
+}
+#main_text3{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+#block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    
+}
+.block{
+    width: 100%;
+    box-sizing: content-box;
+    margin-bottom: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#post{
+    width: calc(100vw * 0.55);
+    display: flex;
+    width: auto;
+}
+#block1{
+    height: 1293px;
+}
+#block2{
+    background-image: url('img/Post2.png');
+    height: 561px;
+}
+#block3{
+    height: 852px;
+}
+#sidebar{
+    background-image: url('img/sidebar.png');
+    background-repeat: no-repeat;
+    margin-right: 100px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    height: 2566px;
+}
+@media (max-width: 900px) {
+#logo{
+    margin: 0;
+    }
+nav{
+    width: 30%;
+    font-size: 20px;
+    }
+    #main_div{
+        padding-left: 100px;}
+}
+@media (max-width: 700px) {
+nav{
+    width: 30%;
+    font-size: 20px;
+    }
+}
